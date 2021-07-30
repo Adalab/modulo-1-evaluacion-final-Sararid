@@ -52,7 +52,7 @@
       height: 45px;
       border: solid $bright-orange 2px;
       border-radius: 22.5px;
-      background-color: white;
+      background-color: $white;
       color: $bright-orange;
       font-size: 20px;
 
@@ -67,10 +67,12 @@
 }
 
 .button:hover {
-  background-color: white;
-  transition: color ease 2s;
+  background-color: $white;
+  color: $bright-orange;
+  transition: color ease 1s;
   &:hover {
-    background-color: gold;
+    background-color: $bright-orange;
+    color: $white;
   }
   @media (min-width: 768px) {
     &:hover {
