@@ -9,7 +9,6 @@
     align-items: center;
     justify-items: center;
     text-align: center;
-    /* gap*/
 
     @media (min-width: 768px) {
       padding: 30px 40px 60px;
@@ -59,7 +58,7 @@
   font-size: 20px;
   border-radius: 22.5px;
   background-color: $bright-orange;
-  color: white;
+  color: $white;
   text-align: center;
   line-height: 2.25;
 
