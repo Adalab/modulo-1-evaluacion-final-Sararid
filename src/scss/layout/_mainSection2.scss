@@ -61,13 +61,12 @@
   color: $white;
   text-align: center;
   line-height: 2.25;
-
+  transition: transform 2s ease-in-out;
+  &:hover {
+    transform: rotate(30deg);
+  }
   @media (min-width: 768px) {
     width: 210px;
-    transition: transform 2s ease-in-out;
-    &:hover {
-      transform: rotate(50deg);
-    }
   }
   @media (min-width: 1200px) {
     width: 255px;
